@@ -10,7 +10,7 @@ namespace User_Registration_Regex_Unit_Testing
         static void Main(string[] args)
         {
             UserRegistrationPattern userRegistrationPattern = new UserRegistrationPattern();
-            string[] checkingFirstNames = {  };
+            string[] checkingFirstNames = { "Viney","Pop","Ho","viney" };
             userRegistrationPattern.ValidateFirstName(checkingFirstNames);
         }
     }

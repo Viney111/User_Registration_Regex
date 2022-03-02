@@ -11,7 +11,6 @@ namespace User_Registration_Regex_Unit_Testing
     {
         public static string firstName = "^[A-Z]{1}[a-zA-Z]{2,}$";
         public static string lastName = "^[A-Z]{1}[a-zA-Z]{2,}$";
-
         public void ValidatelastName(string[] names)
         {
             foreach (string n in names)
@@ -20,7 +19,6 @@ namespace User_Registration_Regex_Unit_Testing
 
                 Console.WriteLine(result);
             }
-
         }
         public void ValidateFirstName(string[] names)
         {
@@ -30,7 +28,6 @@ namespace User_Registration_Regex_Unit_Testing
 
                 Console.WriteLine(result);
             }
-
         }
     }
 }
